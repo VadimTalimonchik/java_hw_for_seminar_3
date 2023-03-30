@@ -8,7 +8,7 @@ public class randomArr {
         } 
         System.out.println("\n");
     }
-    public static ArrayList<Integer> FillRandomArray(int n) {  //заполнение списка случайными целыми числами
+    public static ArrayList<Integer> FillRandomArray(int n) {
         ArrayList <Integer> list = new ArrayList<>();
         for(int i = 0; i < n; i++){
             list.add((int)(Math.random()*100));
